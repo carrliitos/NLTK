@@ -7,5 +7,3 @@ and it can help answering many real-world questions, such as:
 - Which companies were mentioned in the news article?
 - Were specified products mentioned in complaints or reviews?
 - Does the tweet contain the name of a person? Does the tweet contain this person’s location?
-
-[Medium Article](https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da)
