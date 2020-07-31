@@ -65,4 +65,8 @@ article = nlp(ny_bb)
 len(article.ents) # there are currently 158 entities in the article
 # represent each entity as 10 unique labels
 labels = [x.label_ for x in article.ents]
-print(Counter(labels))
+Counter(labels)
+
+# find the three most frequent tokens
+items = [x.text for x in article.ents]
+Counter(items).most_common(3)
