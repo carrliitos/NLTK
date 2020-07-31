@@ -1,0 +1,29 @@
+(S
+  (GPE European/JJ)
+  authorities/NNS
+  fined/VBD
+  (PERSON Google/NNP)
+  a/DT
+  record/NN
+  $/$
+  5.1/CD
+  billion/CD
+  on/IN
+  Wednesday/NNP
+  for/IN
+  abusing/VBG
+  its/PRP$
+  power/NN
+  in/IN
+  the/DT
+  mobile/JJ
+  pohone/NN
+  market/NN
+  and/CC
+  ordered/VBD
+  the/DT
+  company/NN
+  to/TO
+  alte/VB
+  its/PRP$
+  practices/NNS)

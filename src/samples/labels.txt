@@ -1,0 +1,1 @@
+Counter({'PERSON': 75, 'ORG': 40, 'DATE': 23, 'GPE': 11, 'CARDINAL': 5, 'NORP': 2, 'PRODUCT': 1, 'ORDINAL': 1})

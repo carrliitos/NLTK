@@ -1,7 +1,7 @@
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
-from nltk.chunk import conlltags2tree, tree2conlltags
+from nltk.chunk import conlltags2tree, tree2conlltags, ne_chunk
 from pprint import pprint
 
 # The sentence came from the New York Times
@@ -26,4 +26,43 @@ cs = cp.parse(sent)
 
 # representing chunk structures in files
 iob_tagged = tree2conlltags(cs)
-pprint(iob_tagged)
+# pprint(iob_tagged)
+
+# recognize named entities using a classifier and convert tagged sequences into a chunk tree
+ne_tree = ne_chunk(pos_tag(word_tokenize(ex)))
+# print(ne_tree)
+
+# we use SpaCy - trained on the OntoNotes 5 corpus
+import spacy
+from spacy import displacy
+from collections import Counter
+import en_core_web_sm
+nlp = en_core_web_sm.load()
+
+doc = nlp("European authorities fined Google a record $5.1 billion on Wednesday for abusing its power in the mobile phone market and ordered the company to alter its practices")
+# printing on an entity level
+# pprint([(X.text, X.label_) for X in doc.ents])
+
+# printing on token-level entity annotation using BILUO tagging scheme
+# pprint([(X, X.ent_iob_, X.ent_type_) for X in doc])
+'''B means the token begins an entity, I means it is inside an enitity, O means it is outside an entity, and an empty one means no entity tag is set.'''
+
+# We use BeautifulSoup4 for extractions from an article
+from bs4 import BeautifulSoup
+import requests
+import re
+
+def urlToString(url):
+	res = requests.get(url)
+	html = res.text
+	soup = BeautifulSoup(html, "html5lib")
+	for script in soup(["script", "style", "aside"]):
+		script.extract()
+	return " ".join(re.split(r'[\n\t]+', soup.get_text()))
+
+ny_bb = urlToString("https://www.nytimes.com/2018/08/13/us/politics/peter-strzok-fired-fbi.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news")
+article = nlp(ny_bb)
+len(article.ents) # there are currently 158 entities in the article
+# represent each entity as 10 unique labels
+labels = [x.label_ for x in article.ents]
+print(Counter(labels))
