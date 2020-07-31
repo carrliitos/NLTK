@@ -1,0 +1,141 @@
+(S
+  E/NNP
+  (NP u/JJ r/NN)
+  (NP o/NN)
+  (NP p/NN)
+  e/VBZ
+  (NP a/DT n/JJ  /NN)
+  (NP a/DT u/JJ t/NN)
+  (NP h/NN)
+  o/IN
+  (NP r/NN)
+  (NP i/NN)
+  t/VBP
+  (NP i/NN)
+  e/VBP
+  s/JJ
+   /NNP
+  (NP f/NN)
+  (NP i/NN)
+  n/VBP
+  (NP e/NN)
+  (NP d/NN)
+   /NNP
+  G/NNP
+  o/MD
+  o/VB
+  (NP g/JJ l/NN)
+  (NP e/NN)
+   /VBZ
+  (NP a/DT  /JJ r/NN)
+  (NP e/NN)
+  (NP c/NN)
+  (NP o/NN)
+  (NP r/NN)
+  (NP d/NN)
+   /NNP
+  $/$
+  5/CD
+  ./.
+  1/CD
+  (NP  /NN)
+  (NP b/NN)
+  (NP i/NN)
+  l/VBP
+  (NP l/NN)
+  (NP i/NN)
+  o/VBP
+  n/JJ
+   /NNP
+  (NP o/NN)
+  (NP n/NN)
+   /NNP
+  W/NNP
+  (NP e/NN)
+  (NP d/NN)
+  (NP n/JJ e/NN)
+  (NP s/NN)
+  d/VBZ
+  (NP a/DT y/NN)
+   /NNP
+  (NP f/NN)
+  (NP o/NN)
+  (NP r/NN)
+   /VBZ
+  (NP a/DT b/NN)
+  (NP u/JJ s/NN)
+  (NP i/NN)
+  n/VBP
+  (NP g/NN)
+  (NP  /NN)
+  (NP i/NN)
+  t/VBP
+  (NP s/NN)
+   /NNP
+  (NP p/NN)
+  (NP o/NN)
+  (NP w/NN)
+  (NP e/NN)
+  (NP r/NN)
+  (NP  /NN)
+  (NP i/NN)
+  n/VBP
+  (NP  /JJ t/NN)
+  (NP h/NN)
+  (NP e/NN)
+   /NNP
+  (NP m/NN)
+  (NP o/NN)
+  (NP b/NN)
+  (NP i/NN)
+  l/VBP
+  (NP e/NN)
+   /NNP
+  (NP p/NN)
+  (NP o/NN)
+  (NP h/NN)
+  (NP o/JJ n/JJ e/NN)
+   /NNP
+  m/VBZ
+  (NP a/DT r/NN)
+  (NP k/NN)
+  e/FW
+  (NP t/NN)
+   /VBZ
+  (NP a/DT n/JJ d/NN)
+   /NNP
+  o/VBZ
+  (NP r/NN)
+  (NP d/NN)
+  (NP e/NN)
+  (NP r/NN)
+  (NP e/NN)
+  (NP d/NN)
+   /NNP
+  (NP t/NN)
+  (NP h/NN)
+  (NP e/NN)
+   /NNP
+  c/VBZ
+  (NP o/JJ m/NN)
+  p/VBZ
+  (NP a/DT n/JJ y/NN)
+   /NNP
+  (NP t/NN)
+  (NP o/NN)
+   /VBZ
+  (NP a/DT l/NN)
+  (NP t/NN)
+  (NP e/NN)
+  (NP  /NN)
+  (NP i/NN)
+  t/VBP
+  (NP s/NN)
+  (NP  /NN)
+  (NP p/NN)
+  r/VBZ
+  (NP a/DT c/JJ t/NN)
+  (NP i/NN)
+  c/VBP
+  (NP e/NN)
+  (NP s/NN))
