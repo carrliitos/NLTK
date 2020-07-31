@@ -70,3 +70,18 @@ Counter(labels)
 # find the three most frequent tokens
 items = [x.text for x in article.ents]
 Counter(items).most_common(3)
+
+# Randomly select one sentence and generate the raw markup
+sentences = [x for x in article.sents]
+# print(sentences[21]) # "A spokeswoman for the F.B.I. did not respond to a message seeking comment about why Mr. Strzok was dismissed rather than demoted."
+
+# These following will not work uless we're using Jupyter Notebook or an IDE that supports SpaCy's builtin displaCy visualizer
+# displacy.render(nlp(str(sentences[21])), jupyter=True, style="ent")
+# displacy.render(nlp(str(sentencens[21])), jupyter=True, style="dep")
+# options = ["distance": 120]
+
+# extract POS and lemmatize the selected sentence
+verbatim = [(x.orth_, x.pos_, x.lemma_) for x in [y for y in nlp(str(sentences[21])) if not y.is_stop and y.pos_ != "PUNCT"]]
+# print(verbatim)
+
+# Additional options: we can visualize the whole thing if we wanted. Since we're working on a text editor, let's not.

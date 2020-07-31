@@ -1,0 +1,1 @@
+[('spokeswoman', 'NOUN', 'spokeswoman'), ('F.B.I.', 'PROPN', 'F.B.I.'), ('respond', 'VERB', 'respond'), ('message', 'NOUN', 'message'), ('seeking', 'VERB', 'seek'), ('comment', 'NOUN', 'comment'), ('Mr.', 'PROPN', 'Mr.'), ('Strzok', 'PROPN', 'Strzok'), ('dismissed', 'VERB', 'dismiss'), ('demoted', 'VERB', 'demote')]
